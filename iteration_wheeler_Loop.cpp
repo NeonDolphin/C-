@@ -10,8 +10,8 @@ int main()
 	 cout << sum << endl;
 	 
 	 if(sum == z){
-		 cout << "Bravo PaPi!\n";
-		 cout << "to je To!";
+		 cout << "Whassuup!\n";
+		 cout << "Hello!";
 	 }
 	 while(sum != z && sum < 100){
 		 cout << sum << endl;
