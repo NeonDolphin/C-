@@ -4,7 +4,7 @@ int main()
 	int pin = 0;
 	int tries = 0;
 	
-	std::cout << "Welcome to the RusBank!\n";
+	std::cout << "Welcome to the NeonDolphinBank!\n";
 	
 	
 	std::cout << "Enter your PIN:\n";
