@@ -1,0 +1,21 @@
+int main()
+{
+     int total, num;
+     cout << "Enter a number." << endl;
+     cin >> num; //(1)
+     total = 5;
+     for (int test = 0; test < 2; test++) 
+     {
+         total += num; //total = total + num (2)
+         cout << total << endl;
+     }
+}
+//outputs 15, 25
+
+//1. if total = 5, num = 10, test = 0 (condition true)
+//total = 5 + 10 = 15 //5 + 10 (1)
+//test++ after body of loop is executed
+
+//2. if test = 1 (condition true)
+//total = 15 + 10 = 25 //15 (2) + 10 (1)
+//test++ after body of loop is executed (3. fails)
